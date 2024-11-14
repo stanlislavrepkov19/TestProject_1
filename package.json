@@ -1,0 +1,22 @@
+{
+  "name": "repko",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.48.2",
+    "playwright-core": "^1.48.2",
+    "undici-types": "^6.19.8"
+  },
+  "description": ""
+}
