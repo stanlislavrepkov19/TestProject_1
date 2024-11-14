@@ -5,7 +5,7 @@ test('Поиск на странице Google', async ({ page }) => {
   await page.goto('https://www.google.com');
 
   // Селектор поиска и ввод текста "Автотесты"
-  const searchInput = page.locator('//textarea[@title="Поиск"]')
+  const searchInput = page.locator('//textarea[@aria-label="Найти"]')
   await searchInput.fill('Автотесты');
 
   // Клик по кнопке "Поиск в Google"
